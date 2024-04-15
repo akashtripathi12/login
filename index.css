@@ -1,0 +1,152 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    25deg,
+    #82cee9,
+    #8d97f7,
+    #64edf4,
+    #3b84f9
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+#content_container {
+  width: 30%;
+  height: 70%;
+}
+
+#form_container {
+  width: 80%;
+  height: 80%;
+
+  background-color: #bed4f9;
+  box-shadow: 0 0 50px -20px #fad0d0;
+  border-radius: 2%;
+
+  overflow: hidden;
+}
+
+#form_header_container {
+  width: 100%;
+  height: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  border-bottom: 1px solid transparent;
+  border-image: -webkit-linear-gradient(
+      25deg,
+      #99f2fc,
+      #a7aff7,
+      #a9fbff,
+      #166cf6
+    )
+    20;
+  background: #aaaa882a;
+}
+
+#form_header {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  background: -webkit-linear-gradient(25deg, #000000, #000, #000, #000, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#form_content_container {
+  width: 100%;
+  height: 90%;
+  margin-top: 110px;
+  padding: 20px;
+  float: left;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 30px;
+}
+
+#form_content_inner_container {
+  width: 75%;
+  height: 100%;
+
+  float: left;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+
+  padding-left: 10px;
+  margin-bottom: 10px;
+
+  background: #f5efef;
+  font-family: Montserrat;
+  font-weight: 300;
+  color: #fff;
+  font-size: 12px;
+
+  border-bottom: 2px solid transparent;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+
+#button_container {
+  width: 100%;
+  height: 10%;
+
+  background-image: linear-gradient(
+    80deg,
+    #b7faf2,
+    #7ec3f5 50%,
+    #8d92ff 50%,
+    #4888fe
+  );
+  color: #fff;
+
+  float: left;
+
+  margin-top: 5px;
+}
+
+#button_container button {
+  width: 50%;
+  height: 100%;
+  float: left;
+
+  background: transparent;
+
+  font-family: Montserrat;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 12px;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
