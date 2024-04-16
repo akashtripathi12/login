@@ -105,9 +105,9 @@ input {
 
   background: #f5efef;
   font-family: Montserrat;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
-  font-size: 12px;
+  font-size: 14px;
 
   border-bottom: 2px solid transparent;
   border-top-left-radius: 2%;
@@ -125,7 +125,7 @@ input {
     #8d92ff 50%,
     #4888fe
   );
-  color: #fff;
+  color: #000;
 
   float: left;
 
